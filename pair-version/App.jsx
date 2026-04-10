@@ -1,3 +1,4 @@
+import React from 'react';
 import { useMemo, useState } from 'react';
 import TaskInput from './components/TaskInput.jsx';
 import TaskList from './components/TaskList.jsx';

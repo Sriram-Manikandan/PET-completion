@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Filter({ filters, activeFilter, onChangeFilter }) {
   return (
     <div className="filter-group">

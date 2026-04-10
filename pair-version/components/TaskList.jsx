@@ -1,3 +1,5 @@
+import React from 'react';
+
 function TaskList({ tasks, onToggleTask }) {
   if (tasks.length === 0) {
     return <p className="empty-state">No tasks yet. Add one to get started.</p>;
